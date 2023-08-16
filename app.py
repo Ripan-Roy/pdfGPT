@@ -61,8 +61,8 @@ def main():
     user_question = st.text_input("Enter your question here")
     if user_question:
         handle_userinput(user_question)
-    st.write(user_template.replace("{{MSG}}", "Hello Bot"), unsafe_allow_html=True)
-    st.write(bot_template.replace("{{MSG}}", "hello Human"), unsafe_allow_html=True)
+    # st.write(user_template.replace("{{MSG}}", "Hello Bot"), unsafe_allow_html=True)
+    # st.write(bot_template.replace("{{MSG}}", "hello Human"), unsafe_allow_html=True)
 
     with st.sidebar:
         st.subheader("Your Documents")
